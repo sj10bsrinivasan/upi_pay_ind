@@ -1,16 +1,17 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint upi_pay.podspec` to validate before publishing.
+# Run `pod lib lint upi_pay_ind.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
   s.name             = 'upi_pay_ind'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Flutter plugin for UPI payments.'
   s.description      = <<-DESC
 A flutter plugin to launch UPI payment applications on Android and iOS towards making UPI payments.
                        DESC
   s.homepage         = 'https://github.com/sj10bsrinivasan/upi_pay_ind'
-  s.license          = { :file => '../LICENSE' }
+  s.license          = { :type => 'BSD' }
+  s.author           = { 'Srinivasan' => 'sj10shri@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
